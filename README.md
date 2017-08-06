@@ -31,7 +31,7 @@ Agent pid 59566
 $ ssh-add ~/.ssh/id_rsa_clydeatuic
 ```
 
-* Manage mulptiple accounts
+* Manage multiple accounts
 
 ```console
 # clydeatuic Github
