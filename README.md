@@ -30,3 +30,19 @@ $ eval $(ssh-agent -s)
 Agent pid 59566
 $ ssh-add ~/.ssh/id_rsa_clydeatuic
 ```
+
+* Manage mulptiple accounts
+
+```console
+# clydeatuic Github
+Host github-clydeatuic
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_clydeatuic
+	
+# clydeinwebdev Github
+Host github-clydeinwebdev
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_clydeinwebdev
+```
